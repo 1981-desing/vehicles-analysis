@@ -1,7 +1,7 @@
 import pandas as pd
 import plotly_express as px
 import streamlit as st
-import nbformat as nbf
+
 
 veiculos_us = pd.read_csv('vehicles_us.csv')
 st.header('venda de veiculos')
